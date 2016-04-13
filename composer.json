@@ -1,0 +1,25 @@
+{
+    "name": "jdpedrie/test-app",
+    "authors": [
+        {
+            "name": "jdpedrie",
+            "email": "john@pedrie.com"
+        }
+    ],
+    "require": {
+        "google/cloud": "dev-master",
+        "silex/silex": "^1.3",
+        "twig/twig": "^1.24"
+    },
+    "repositories": [
+        {
+            "type": "path",
+            "url": "../gcloud-php"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "JDP\\Cloud\\": "src"
+        }
+    }
+}
